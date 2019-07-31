@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>markdown学习 | 三公里外的风</title><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css"><script>var GLOBAL = { 
+  root: '/',
+  algolia: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  }
+} </script><link rel="icon" href="/favicon.ico"></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Markdown简介"><span class="toc-number">1.</span> <span class="toc-text">Markdown简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用途"><span class="toc-number">2.</span> <span class="toc-text">用途</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vscode使用markdown"><span class="toc-number">3.</span> <span class="toc-text">vscode使用markdown</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#markdown使用语法"><span class="toc-number">4.</span> <span class="toc-text">markdown使用语法</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">三公里外的风</div><div class="author-info__description text-center">wqq -&gt; blog</div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">6</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container" style="background-image: url(true)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">三公里外的风</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">markdown学习</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-07-31 </time></div></div></div><div class="layout" id="content-inner"><article id="post"><div id="post-content"><h2 id="Markdown简介"><a href="#Markdown简介" class="headerlink" title="Markdown简介"></a>Markdown简介</h2><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。<br>Markdown具有一系列衍生版本，用于扩展Markdown的功能（如表格、脚注、内嵌HTML等等），这些功能原初的Markdown尚不具备，它们能让Markdown转换成更多的格式，例如LaTeX，Docbook。Markdown增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。这些衍生版本要么基于工具，如Pandoc；要么基于网站，如GitHub和Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。</p>
+<hr>
+<h2 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h2><p>Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如Joomla、Drupal都能很好的支持Markdown。完全采用Markdown编辑器的博客平台有Ghost和Typecho。<br>用于编写说明文档，并且以“README.md”的文件名保存在软件的目录下面。<br>除此之外，由于我们有了RStudio这样的神级编辑器，我们还可以快速将Markdown转化为演讲PPT、Word产品文档、LaTex论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown已经广泛使用，极大地推进了动态可重复性研究的历史进程。</p>
+<hr>
+<h2 id="vscode使用markdown"><a href="#vscode使用markdown" class="headerlink" title="vscode使用markdown"></a>vscode使用markdown</h2><p>1、安装插件<br>在VSCode扩展商店中安装如下的两个插件:<br>（1）markdownlint 语法提示<br>（2）Markdown Preview Enhanced 预览显示</p>
+<p><img src="/2019/07/31/markdown学习/markdown.png" alt="markdown扩展"></p>
+<p>2、使用预览<br>（1）新建md文件并点击右上角预览按钮。</p>
+<p><img src="/2019/07/31/markdown学习/previewbutton.png" alt="previewbutton"></p>
+<p> (2)查看预览。</p>
+<p> <img src="/2019/07/31/markdown学习/preview.png" alt="preview"></p>
+<hr>
+<h2 id="markdown使用语法"><a href="#markdown使用语法" class="headerlink" title="markdown使用语法"></a>markdown使用语法</h2><ul>
+<li><p>标题设置<br>第一种方法：在标题文字前加#，一级标题为#，二级标题为##，三级标题为###，以此类推，最多六级，其中一级标题文字最大。<br>第二种方法：在标题文字下行输入–（符号前不可有空格），可表示二级标题。<br>在标题文字下行输入==，可表示一级标题。</p>
+</li>
+<li><p>引用块注释<br>“&gt;”在一段文字前表示引用(去掉引号)</p>
+</li>
+<li><p>图片</p>
+<p><img src="/2019/07/31/markdown学习/picture.png" alt="picture"></p>
+</li>
+<li><p>列表</p>
+<p><img src="/2019/07/31/markdown学习/list.png" alt="list"></p>
+</li>
+<li><p>链接</p>
+<p><img src="/2019/07/31/markdown学习/link.png" alt="link"></p>
+</li>
+<li><p>代码</p>
+<p><img src="/2019/07/31/markdown学习/code.png" alt="code"></p>
+</li>
+</ul>
+<p>To be continued</p>
+<hr>
+</div><div class="post-meta__tag-list"></div></article><nav id="pagination"><div class="prev-post pull-left"><a href="/2019/07/31/git学习/"><i class="fa fa-chevron-left">  </i><span>git学习</span></a></div><div class="next-post pull-right"><a href="/2019/07/31/修改篇/"><span>修改篇</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">©2013 - 2019 By 三公里外的风</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span> |  </span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js"></script><script src="/js/fancybox.js"></script><script src="/js/sidebar.js"></script><script src="/js/copy.js"></script><script src="/js/fireworks.js"></script><script src="/js/transition.js"></script><script src="/js/scroll.js"></script><script src="/js/head.js"></script></body></html>
